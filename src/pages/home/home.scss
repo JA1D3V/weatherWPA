@@ -1,3 +1,51 @@
 page-home {
+    .holebody {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top,$dark-blue, $middle-blue);
+    }
+    .current-div {
+        height: 50%;
+        width: 100%;
+        margin-top: 0;
+    }
 
+    .previsao-div {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .title {
+        text-align: center;
+        color: $kinda-grey;
+        padding-top: 1%;
+    }
+    .previsao-text {
+        margin: 0;
+        padding-top: 1%;
+        padding-left: 2%;
+        color: $kinda-grey;
+        border-style: solid;
+        border-color: $kinda-grey;
+        border-bottom-width: 1px;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-top-width: 0;
+    }
+    .previsao-content {
+
+    }
+
+    .temp {
+        text-align: center;
+        color: $kinda-grey;
+    }
+
+    .temp-text {
+        font-size: 10rem;
+    }
+
+    .nextDays {
+        text-align: center;
+    }
 }
